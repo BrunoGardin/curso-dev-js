@@ -1,0 +1,25 @@
+Passo 1:
+git init
+git config --global user.name "BrunoGardin"
+git config --global user.email "brunogardinc0@gmail.com"
+
+Passo 2:
+git add .
+git commit -m "Criação do diretório inicial, Add pastas atividades-praticas e exercicios-individuais/CMD. ADD arquivo README.md e arquivos txt"
+
+Passo 3:
+git branch melhorias-estrutura
+git switch melhorias-estrutura
+git commit -m "Melhoria de informações nos arquivos pesquisa.txt e README.md"
+git switch main
+git merge melhorias-estrutura
+
+Passo 4:
+git remote add origin https://github.com/BrunoGardin/curso-dev-js.git
+git push origin main
+
+Passo 5:
+git clone https://github.com/BrunoGardin/curso-dev-js.git
+git add .
+git commit -m "Add pasta git_github na pasta exercicios-individuais e add arquivo lista_comandos.txt"
+git push
