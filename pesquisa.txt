@@ -1,1 +1,12 @@
 JavaScript é uma linguagem de programação usada por desenvolvedores para fazer páginas interativas da Internet. As funções de JavaScript podem melhorar a experiência do usuário durante a navegação em um site, como, por exemplo, desde a atualização do feed na página da mídia social até a exibição de animações e mapas interativos. Como uma linguagem de script do lado do cliente, ele é uma das tecnologias principais da World Wide Web. Por exemplo, ao navegar na Internet, é possível visualizar a qualquer momento um carrossel de imagens, um menu suspenso “clicar para visualizar” ou mesmo mudar dinamicamente as cores dos elementos de uma página da Web. Tudo isso graças ao JavaScript.
+Alguns comandos importantes no JS:
+if: Testa uma condição e executa um bloco de código se a condição for verdadeira. 
+while: Executa um bloco de código repetidamente enquanto uma condição for verdadeira. 
+for: Executa um bloco de código um número específico de vezes, geralmente com um contador. 
+break: Interrompe a execução de um loop (como for ou while). 
+continue: Interrompe a iteração atual de um loop e passa para a próxima. 
+switch/case: Avalia o valor de uma variável e executa um bloco de código correspondente ao valor. 
+console.log(): Imprime mensagens no console do navegador.
+return: Retorna um valor de uma função.
+function: Cria uma função.
+let: Declara variáveis

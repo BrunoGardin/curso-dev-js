@@ -1,1 +1,1 @@
-# Este é um repositório que será utilizado ao longo do curso, para envios de atividades.
+# Este é um repositório que será utilizado ao longo do curso, para envios de atividades. Será feito modificações dentro desse diretório que será atualizado com novas atividades que estará no github
