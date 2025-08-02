@@ -1,0 +1,154 @@
+U:\Users\43277311880>cd Desktop
+
+U:\Users\43277311880\Desktop>mkdir projeto_responsivo
+
+U:\Users\43277311880\Desktop>cd projeto_responsivo
+
+U:\Users\43277311880\Desktop\projeto_responsivo>mkdir public
+
+U:\Users\43277311880\Desktop\projeto_responsivo>mkdir src
+
+U:\Users\43277311880\Desktop\projeto_responsivo>mkdir docs
+
+U:\Users\43277311880\Desktop\projeto_responsivo>cd public
+
+U:\Users\43277311880\Desktop\projeto_responsivo\public>mkdir html
+
+U:\Users\43277311880\Desktop\projeto_responsivo\public>mkdir css
+
+U:\Users\43277311880\Desktop\projeto_responsivo\public>mkdir js
+
+U:\Users\43277311880\Desktop\projeto_responsivo\public>mkdir media
+
+U:\Users\43277311880\Desktop\projeto_responsivo\public>cd media
+
+U:\Users\43277311880\Desktop\projeto_responsivo\public\media>dir
+ O volume na unidade U é Users
+ O Número de Série do Volume é 68A7-6153
+
+ Pasta de U:\Users\43277311880\Desktop\projeto_responsivo\public\media
+
+26/07/2025  09:14    <DIR>          .
+26/07/2025  09:14    <DIR>          ..
+               0 arquivo(s)              0 bytes
+               2 pasta(s)   846.987.988.992 bytes disponíveis
+
+U:\Users\43277311880\Desktop\projeto_responsivo\public\media>cd..
+
+U:\Users\43277311880\Desktop\projeto_responsivo\public>cd html
+
+U:\Users\43277311880\Desktop\projeto_responsivo\public\html>echo Projeto Responsivo > home.html
+
+U:\Users\43277311880\Desktop\projeto_responsivo\public\html>cd..
+
+U:\Users\43277311880\Desktop\projeto_responsivo\public>cd css
+
+U:\Users\43277311880\Desktop\projeto_responsivo\public\css>echo body { margin: 0; padding: 0; background-color :lightgray; } > theme.css
+
+U:\Users\43277311880\Desktop\projeto_responsivo\public\css>cd..
+
+U:\Users\43277311880\Desktop\projeto_responsivo\public>cd media
+
+U:\Users\43277311880\Desktop\projeto_responsivo\public\media>mkdir imagens
+
+U:\Users\43277311880\Desktop\projeto_responsivo\public\media>mkdir fontes
+
+U:\Users\43277311880\Desktop\projeto_responsivo\public\media>cd..
+
+U:\Users\43277311880\Desktop\projeto_responsivo\public>cd css
+
+U:\Users\43277311880\Desktop\projeto_responsivo\public\css>copy theme.css docs
+        1 arquivo(s) copiado(s).
+
+U:\Users\43277311880\Desktop\projeto_responsivo\public\css>copy theme.css ..\..\docs\theme.css
+        1 arquivo(s) copiado(s).
+
+U:\Users\43277311880\Desktop\projeto_responsivo\public\css>cd..
+
+U:\Users\43277311880\Desktop\projeto_responsivo\public>cd js
+
+U:\Users\43277311880\Desktop\projeto_responsivo\public\js>echo console.log("Site responsivo pronto!"); > responsivo.js
+
+U:\Users\43277311880\Desktop\projeto_responsivo\public\js>echo console.log("Utilitários carregados!"); > utils.js
+
+U:\Users\43277311880\Desktop\projeto_responsivo\public\js>rename utils.js helpers.js
+
+U:\Users\43277311880\Desktop\projeto_responsivo\public\js>cd..
+
+U:\Users\43277311880\Desktop\projeto_responsivo\public>dir /s
+ O volume na unidade U é Users
+ O Número de Série do Volume é 68A7-6153
+
+ Pasta de U:\Users\43277311880\Desktop\projeto_responsivo\public
+
+26/07/2025  09:14    <DIR>          .
+26/07/2025  09:13    <DIR>          ..
+26/07/2025  09:18    <DIR>          css
+26/07/2025  09:14    <DIR>          html
+26/07/2025  09:24    <DIR>          js
+26/07/2025  09:16    <DIR>          media
+               0 arquivo(s)              0 bytes
+
+ Pasta de U:\Users\43277311880\Desktop\projeto_responsivo\public\css
+
+26/07/2025  09:18    <DIR>          .
+26/07/2025  09:14    <DIR>          ..
+26/07/2025  09:16                63 docs
+26/07/2025  09:16                63 theme.css
+               2 arquivo(s)            126 bytes
+
+ Pasta de U:\Users\43277311880\Desktop\projeto_responsivo\public\html
+
+26/07/2025  09:14    <DIR>          .
+26/07/2025  09:14    <DIR>          ..
+26/07/2025  09:14                21 home.html
+               1 arquivo(s)             21 bytes
+
+ Pasta de U:\Users\43277311880\Desktop\projeto_responsivo\public\js
+
+26/07/2025  09:24    <DIR>          .
+26/07/2025  09:14    <DIR>          ..
+26/07/2025  09:23                42 helpers.js
+26/07/2025  09:23                42 responsivo.js
+               2 arquivo(s)             84 bytes
+
+ Pasta de U:\Users\43277311880\Desktop\projeto_responsivo\public\media
+
+26/07/2025  09:16    <DIR>          .
+26/07/2025  09:14    <DIR>          ..
+26/07/2025  09:16    <DIR>          fontes
+26/07/2025  09:16    <DIR>          imagens
+               0 arquivo(s)              0 bytes
+
+ Pasta de U:\Users\43277311880\Desktop\projeto_responsivo\public\media\fontes
+
+26/07/2025  09:16    <DIR>          .
+26/07/2025  09:16    <DIR>          ..
+               0 arquivo(s)              0 bytes
+
+ Pasta de U:\Users\43277311880\Desktop\projeto_responsivo\public\media\imagens
+
+26/07/2025  09:16    <DIR>          .
+26/07/2025  09:16    <DIR>          ..
+               0 arquivo(s)              0 bytes
+
+     Total de Arquivos na Lista:
+               5 arquivo(s)            231 bytes
+              20 pasta(s)   846.983.278.592 bytes disponíveis
+
+U:\Users\43277311880\Desktop\projeto_responsivo\public>cd..
+
+U:\Users\43277311880\Desktop\projeto_responsivo>cd docs
+
+U:\Users\43277311880\Desktop\projeto_responsivo\docs>del theme.css
+
+U:\Users\43277311880\Desktop\projeto_responsivo\docs>cd..
+
+U:\Users\43277311880\Desktop\projeto_responsivo>cd public
+
+U:\Users\43277311880\Desktop\projeto_responsivo\public>cd hmtl
+O sistema não pode encontrar o caminho especificado.
+
+U:\Users\43277311880\Desktop\projeto_responsivo\public>cd html
+
+U:\Users\43277311880\Desktop\projeto_responsivo\public\html>notepad home.html

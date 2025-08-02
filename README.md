@@ -1,0 +1,1 @@
+# Este é um repositório que será utilizado ao longo do curso, para envios de atividades.
