@@ -1,0 +1,28 @@
+1 - Tela de Login
+
+Requisitos Funcionais:
+- Tela de "Esqueci a senha"
+- Botão para visualizar a senha
+- Autenticação de duplo fator
+- Autenticação de "Não sou um robô"
+- Punição para senha errada
+- Botão de cadastro
+- Notificação no email de novo acesso
+- Email para restauração de senha
+- Login de administrador
+
+Requisitos não Funcionais:
+- Acessibilidade 
+- Sistema 24/7
+- Criptografia nos dados do usuário
+- Conformidade com a LGPD
+- Atualização simultânea
+- O sistema deve suportar até 1000 usuários simultâneos
+
+Regras de Negócio
+- Caso o usuário erre a senha 3 vezes ele deverá tentar novamente depois de 5 minutos
+- Na criação de usuário deverá ter obrigatóriamente: CPF, nome completo, email e telefone. As demais informações serão opcionais
+- O usuário só poderá ter 1 código de duplo fator
+- O usuário só poderá mudar a senha 1 vez por dia
+- O usuário não poderá mudar seus dados pessoais, apenas administradores
+- O email para reset de senha deverá chegar no email corporativo
