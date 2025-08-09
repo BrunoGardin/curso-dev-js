@@ -1,0 +1,27 @@
+2 - App de hamburgueria
+
+Requisitos Funcionais:
+- Tela de cardápio
+- Tela de cadastro de endereço
+- Tela de pagamento
+- Tela de pedido (Requisitos dos lanches e bebidas)
+- Tela p/ acompanhar o entregador
+- Tempo estimado
+- Cancelar pedido
+- Login de funcionário
+- Gráfico de pedidos
+- Checkbox de status
+
+Requisitos não Funcionais:
+- Sistema das 17:00 às 22:00
+- Acessibilidade
+- Backup de pedidos
+- Suportar 100 pedidos ao mesmo tempo
+
+Regras de Negócio:
+- O cliente poderá fazer 1 pedido por vez
+- O cliente poderá mudar seu endereço 2 vezes por dia
+- Caso o cliente cancele enquanto o entregador estiver a caminho pagará taxa de cancelamento
+- O cliente só colocar no máximo 3 adicionais
+- O valor mínimo do pedido será de R$5,00
+- Não é possivel mudar o endereço durante a entrega
