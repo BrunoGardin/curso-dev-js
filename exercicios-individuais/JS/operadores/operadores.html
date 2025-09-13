@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios Operadores</title>
+</head>
+<body>
+    <p>Aperte F12 para ver o resultado</p>
+    <script>
+        function exercicio1(){
+            //Operadores aritméticos básicos + - / *
+            const numero1 = Number(prompt('Digite o primeiro número'));
+            const numero2 = Number(prompt('Digite o segundo número'));
+            console.log(`Adição ${numero1 + numero2}`);
+            console.log(`Subtração ${numero1 - numero2}`);
+            console.log(`Divisão ${numero1 / numero2}`);
+            console.log(`Multiplicação ${numero1 * numero2}`);
+        }
+
+        function exercicio2(){
+            const num = Number(prompt('Digite o Numero que deseja saber o sucessor e o antecessor'));
+            console.log(`Sucessor ${num+1}, Antecessor ${num-1}`);
+        }
+
+        function exercicio3(){
+            const real = Number(prompt('Digite a quantidade que deseja converter para Dólar'));
+            console.log(`Reais ${real} --> Dólares ${(real/5.35).toFixed(2)}`);
+        }
+
+        function exercicio4(){
+            const peso = Number(prompt('Digite seu Peso'));
+            const altura = Number(prompt('Digite sua altura'));
+            console.log(`IMC: ${(peso/altura**2).toFixed(2)}`)
+        }
+
+        let ex = prompt('Escolha o exercício (1 - Operadores Básicos | 2 - Antecessor e Sucessor | 3 - Real para Dólar | 4 - IMC)');
+        
+        switch(ex){
+            case '1':   exercicio1();
+                        break;
+            case '2':   exercicio2();
+                        break;
+            case '3':   exercicio3();
+                        break;
+            case '4':   exercicio4();
+                        break;
+        }
+    </script>
+</body>
+</html>
