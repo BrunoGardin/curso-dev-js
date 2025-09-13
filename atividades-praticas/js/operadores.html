@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operadores JS</title>
+</head>
+<body>
+
+    <p>Aperte F12 para ver o resultado!</p>
+
+
+    <script>
+        // VARIÁVEIS 
+        var exemploVar = 'Bruno Gardin';
+        var exemploVar = 'Senai';
+        exemploVar = 'Teste';
+        console.log(exemploVar);
+
+        let exemploLet = 'Prudente';
+        exemploLet = 'Regente';
+        console.log(exemploLet);
+
+        const exemploConst = 'Setembro';
+        // exemploConst = 'Bruno'; // Erro, o valor da variavel não pode ser alterado
+        console.log(exemploConst);
+
+        // Uma linha de comentário
+
+        /*
+        Varias
+        Linhas de
+        Comentário
+        */
+
+        // TIPOS DE DADOS
+
+        // String
+        const nome = "Bruno";
+        const sobrenome = 'Gardin';
+        const multiplasLinhas = `
+        Primeira Linha
+        Segunda Linha
+        Terceira Linha`;
+
+        console.log(nome, sobrenome);
+        console.log(nome,'-',sobrenome);
+        console.log(nome+'-'+sobrenome);
+        console.log(`${nome} - ${sobrenome}`);
+
+        // Number (inteiros(int) e decimais(float))
+        const idade = 18;
+        const altura = 1.83;
+        const temperatura = -10;
+        console.log(idade);
+
+        // Boolean (verdadeiro ou falso)
+        const ativo = true;
+        const inativo = false;
+        const maiorIdade = idade >= 18;
+        console.log(maiorIdade);
+
+        //null e undefined
+        const valorNulo = null;
+        let valorIndefinido;
+        console.log(valorNulo);
+        console.log(valorIndefinido);
+
+        // OPERADORES ARITIMÉTICOS
+        // + - * / % ** ++ --
+
+        const a = 15;
+        const b = 5;
+
+        //PEMDAS (parenteses, exponenciação, multiplicação, divisão, adição, subtração)
+
+        console.log(a + b);
+        console.log(a - b);
+        console.log(a * b);
+        console.log(a / b);
+        console.log(a % b);
+        console.log(a ** b);
+
+        console.log((a + b) / a);
+
+        let contador = 10;
+        // Incrementação
+        console.log(contador++);
+        console.log(contador);
+        console.log(++contador);
+
+        // Decrementação
+        console.log(contador--);
+        console.log(contador);
+        console.log(--contador);
+
+        // Atribuição
+        let num = 10;
+        num+=5; // num = num + 5
+        console.log(num);
+        num-=3; // num = num - 3
+        console.log(num);
+        num*=2; // num = num * 2
+        console.log(num);
+        num/=4; // num = num /4
+        console.log(num);
+
+        // OPERADORES DE COMPARAÇÃO
+        const x = 5;
+        const y = '5';
+        const z = 10;
+
+        console.log(x == y); // Mesmo valor (==) (true)
+        console.log(x === y); // Mesmo valor, porém tipo de dados diferentes (===) (False)
+        
+        console.log(x != y); // Mesmo valor, não é diferente (false)
+        console.log(x !== y); // Mesmo valor, porém tipo de dados diferentes (true)
+
+        console.log(x > y); // Maior que
+        console.log(z >= x); //Maior ou igual que
+        console.log(x < y); // Menor que
+        console.log(z <= x); // Menor ou igual que
+
+        // OPERADORES LOGICOS
+        // ! not, || or, && and
+        const temIdade = true;
+        const temCarteira = true;
+        const temDinheiro = false;
+
+        // ! not -> Resultado oposto
+        console.log(!temIdade);
+        console.log(!temCarteira);
+        console.log(!temDinheiro);
+
+        // && and -> Ambas, e
+        console.log(temIdade && temCarteira && temDinheiro); // Para que a resposta seja verdadeira, todos os parâmetros devem ser true
+
+        // || or -> Um dos elementos deve ser verdadeiro
+        console.log(temIdade || temCarteira || temDinheiro);
+
+        // CONVERSÕES DE TIPO
+        
+        // Conversões  Implicitas (Faz de forma automática)
+        console.log('5' + 2);
+        console.log('5' - 2);
+        console.log('5' * 2);
+
+        // Conversões Explícitas
+        const textoNumero = '42.7';
+        console.log(Number(textoNumero)) //Conversão de String -> Number
+        console.log(parseInt(textoNumero)) //Conversão de String -> Int
+        console.log(parseFloat(textoNumero)) //Conversão de String -> Float
+        console.log(parseFloat('42px')); //Conversão de String -> Float, mesmo com texto no parâmetro
+
+        const numero = 123.10;
+        console.log(String(numero)); //Conversão Number -> String
+        console.log(numero.toString()) //Conversão Number -> String
+
+        console.log(Boolean(0)); //Tipo Booleano, 0 -> False
+        console.log(Boolean(1)); //Tipo Booleano, 1 -> True
+        console.log(Boolean('')); //Tipo Booleano, String vazia -> False
+        console.log(Boolean('Bruno')); //Tipo Booleano, String com algo -> True
+
+        const numero1 = 1;
+        const string1 = "Bruno";
+
+        console.log(typeof numero1); //Verifica o tipo da variável (number)
+        console.log(typeof string1); //Verifica o tipo da variável (string)
+    </script>
+</body>
+</html>
