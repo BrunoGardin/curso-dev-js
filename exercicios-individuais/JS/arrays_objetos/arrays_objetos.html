@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrays e Objetos</title>
+</head>
+<body>
+    <p>Aperte F12 para ver o resultado</p>
+
+    <script>
+        function exercicio1()
+        {
+            const playlist = ['Sweet Child o Mine','November Rain','Welcome to the Jungle'];
+            console.log(playlist[0]);
+            playlist.push('Dont Cry');
+            playlist.pop();
+            console.log(`Tamanho da playlist: ${playlist.length}`);
+        }
+        function exercicio2()
+        {
+            const filme = 
+            {
+                titulo : 'Carros',
+                ano : 2006,
+                diretor : 'Brian Fee'
+            }
+            console.log(`O filme ${filme.titulo}, dirigido por ${filme.diretor}, foi lançado no ano de ${filme.ano}`);
+            filme.personagens = ['McQueen','Sally','Matt'];
+            console.log(`Protagonista: ${filme.personagens[0]}`);
+            console.log(filme);
+        }
+        exercicio1();
+        exercicio2();
+    </script>
+</body>
+</html>

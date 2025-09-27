@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array e Objetos</title>
+</head>
+<body>
+    
+    <p>Aperte f12 para exibir</p>
+
+    <script>
+        // ARRAYS [] E OBJETOS {}
+        // ARRAY -> INDICE 1, 2, 3
+        // OBJETOS -> {CHAVE : VALOR}
+
+        // ARRAY
+
+        const frutas = ['Maçã','Banana','Laranja','Uva','Pera'];
+        console.log(`Array inicial: ${frutas}`);
+
+        // Verificar qtd. itens
+        console.log(`Tamanho do array ${frutas.length}`);
+
+        // Exibir 1° e o último
+        console.log(`Primeiro: ${frutas[0]}`);
+        console.log(`Último número (Tamanho informado): ${4}`);
+        console.log(`Último número (Com lenght): ${frutas.length - 1}`);
+
+        // Inserir item
+        frutas.push('Jaca');
+        console.log(`Inserção de item (Último elemento): ${frutas}`);
+        frutas.unshift('Abacaxi');
+        console.log(`Inserção de item (Primeiro elemento): ${frutas}`);
+
+        // Alterar itens
+        frutas[0] = "Morango";
+        console.log(`Alterar valor: ${frutas}`);
+
+        // Excluir itens
+        frutas.pop();
+        console.log(`Exclusão de item(Último elemento): ${frutas}`);
+
+        frutas.shift();
+        console.log(`Exclusão de item (Primeiro elemento): ${frutas}`);
+
+        delete frutas[1];
+        console.log(`Exclusão de item (Elemento escolhido): ${frutas}`);
+
+        // Inserir e excluir
+        frutas.splice(1,2,'Limão'); // Exclui a partir do elemento número 1 até o número 2 e adciona 'Limão'
+        console.log(`Exclusão e inserção: ${frutas}`);
+
+        frutas.splice(1,1);
+        console.log(`Exclusão e inserção: ${frutas}`);
+
+        // OBJETOS
+        const pessoa = {
+            nome : 'Bruno',
+            idade : 18,
+            altura : 2.00,
+            amigos : ['Pedro','Maria']
+        }
+
+        console.log(pessoa);
+        console.log(`Seleção de objeto, Nome: ${pessoa.nome}`);
+        console.log(`Seleção de objeto, Idade: ${pessoa.idade}`);
+        console.log(`Seleção de objeto, Altura: ${pessoa.altura}`);
+        console.log(`Seleção de objeto, Amigos: ${pessoa.amigos}`);
+
+        // Inserir valores
+        pessoa.cidade = 'Presidente Prudente';
+        console.log(pessoa);
+
+        // Alterar valores
+        pessoa.cidade = 'Regente';
+        console.log(pessoa);
+
+        // Excluir valores
+        delete pessoa.cidade;
+        console.log(pessoa);
+
+    </script>
+
+</body>
+</html>
